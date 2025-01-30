@@ -12,7 +12,7 @@ public class DemoController {
 	}
 	
 	@RequestMapping("/getTest")
-	public String getTest() {
+	public getTest() {
 		return "welcome to demo Test example";
 	}
 }
