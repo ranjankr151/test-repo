@@ -10,4 +10,9 @@ public class DemoController {
 	public String getDetails() {
 		return "welcome to spring boot simple Application";
 	}
+	
+	@RequestMapping("/getTest")
+	public getTest() {
+		return "welcome to simple Application";
+	}
 }
